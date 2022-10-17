@@ -11,5 +11,11 @@ Zaw Min Tun
 2022-10-17 11:14
 Singapore
 
+## Convention
+In a project, general informative comments will be added like CodeBookNote#Number. Therefore, to know about a project look for CodeBookNote#0 in the particular project. If a comment is written in a place which can be easily overlooked, this tag will be added to the comment so it will not be missed out CodeBookNote#. All the comments will be informative here in this CodeBook.
+
+## Updates history
 All the information following are sorted in reverse chronology order.
 
+2022-10-17 15:57
+03-WFP-Thread

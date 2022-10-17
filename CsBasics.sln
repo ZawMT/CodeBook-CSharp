@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Thread-Basic", "01-Thread-Basic\01-Thread-Basic.csproj", "{D49916C8-9AC4-4E90-83F4-49F14FB8530E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Thread-Basic", "01-Thread-Basic\01-Thread-Basic.csproj", "{D49916C8-9AC4-4E90-83F4-49F14FB8530E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Task-Basic", "02-Task-Basic\02-Task-Basic.csproj", "{747F9401-7739-486E-B1CB-DA797424F0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Task-Basic", "02-Task-Basic\02-Task-Basic.csproj", "{747F9401-7739-486E-B1CB-DA797424F0AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-WPF-Thread", "03-WPF-Thread\03-WPF-Thread.csproj", "{6191C21D-FABE-41DB-A579-112AD6A3E3C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{747F9401-7739-486E-B1CB-DA797424F0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{747F9401-7739-486E-B1CB-DA797424F0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{747F9401-7739-486E-B1CB-DA797424F0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6191C21D-FABE-41DB-A579-112AD6A3E3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6191C21D-FABE-41DB-A579-112AD6A3E3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6191C21D-FABE-41DB-A579-112AD6A3E3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6191C21D-FABE-41DB-A579-112AD6A3E3C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
