@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-MEF-Opt2", "04-MEF-Opt2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-MEF-SampleConsumer", "04-MEF-SampleConsumer\04-MEF-SampleConsumer.csproj", "{F4C84F7D-9A50-4C66-A0F5-604FBC7FC3FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-PartialClass", "05-PartialClass\05-PartialClass.csproj", "{A280855F-DB9E-4799-9729-0B472E9CFDB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-PartialClass", "05-PartialClass\05-PartialClass.csproj", "{A280855F-DB9E-4799-9729-0B472E9CFDB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Dictionary", "06-Dictionary\06-Dictionary.csproj", "{5B175CDC-6257-4362-94E4-822A178F8B39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A280855F-DB9E-4799-9729-0B472E9CFDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A280855F-DB9E-4799-9729-0B472E9CFDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A280855F-DB9E-4799-9729-0B472E9CFDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B175CDC-6257-4362-94E4-822A178F8B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B175CDC-6257-4362-94E4-822A178F8B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B175CDC-6257-4362-94E4-822A178F8B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B175CDC-6257-4362-94E4-822A178F8B39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
