@@ -6,4 +6,12 @@
     <RootNamespace>_04_MEF_SampleConsumer</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\04-MEF-IOpt\04-MEF-IOpt.csproj" />
+  </ItemGroup>
+
 </Project>
