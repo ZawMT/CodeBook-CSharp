@@ -19,5 +19,14 @@ The projects can be tested by using Visual Studio 2019.
 ## Updates history
 All the information following are sorted in reverse chronological order.
 
+2022-10-31 16:28
+Some contents listed here are created earlier. It is not very important to know the exact time of update or change. In case, if there is any need, see the git hub commit history.
+04-MEF : Managed Extensibility Framework : 4 chapters
+05-Partial class
+06-Dictionary
+07-Unit testing : 5 chapters
+
 2022-10-17 15:57
 03-WFP-Thread
+02-Task
+01-Thread
