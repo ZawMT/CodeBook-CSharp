@@ -17,6 +17,11 @@
 * If the classes are not exported, they cannot be referred from the Test project.
 * If the classes are exported, the purpose of hiding the unnecessary defintions from the user will fail.
 * In that case, the target class to test can be referred by using obj file (see in the project settings of 07-UnitTest-15-GoggleTest)
+* 
+* Another point to take note is that:
+* Any auto-generated codes can lead to linker errors:
+* For example, if a destructor is not created explicitly for a class, then compiler will generate automatically a destructor behind the scene.
+* Such auto-generated codes can have the linker errors saying that the destructor is already defined. In that case, define the destructore explicitly.
 */
 
 int main()
