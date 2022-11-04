@@ -11,6 +11,12 @@
 * Only after having this library, we can link it up from the Google Test project.
 * 
 * Running the test cases is the same - from 'Test' menu.
+* 
+* Creating unit test cases using Google Test can be tricky when we want to test the classes which are not exported.
+* The situation is like this:
+* If the classes are not exported, they cannot be referred from the Test project.
+* If the classes are exported, the purpose of hiding the unnecessary defintions from the user will fail.
+* In that case, the target class to test can be referred by using obj file (see in the project settings of 07-UnitTest-15-GoggleTest)
 */
 
 int main()
