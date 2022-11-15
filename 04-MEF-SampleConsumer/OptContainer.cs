@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.Composition;
-using _04_MEF_Opt;
 using System.ComponentModel.Composition.Hosting;
 
 namespace _04_MEF_Opt.App

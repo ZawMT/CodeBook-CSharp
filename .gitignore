@@ -25,5 +25,15 @@
 07-UnitTest-14-App2/Debug/
 07-UnitTest-15-GoogleTest/Debug/
 08-CodeSnippets-Cpp/Debug/
+09-Lib-CSClass/bin/
+09-Lib-CSClass/obj/
+09-Lib-CSNetFw/bin/
+09-Lib-CSNetFw/obj/
+09-Lib-CSWPF/bin/
+09-Lib-CSWPF/obj/
+09-UseApp/bin/
+09-UseApp/obj/
+09-UseApp-WPF/bin/
+09-UseApp-WPF/obj/
 /Debug/
 /packages/

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>_09_UseApp_WPF</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\09-Lib-CSClass\09-Lib-CSClass.csproj" />
+    <ProjectReference Include="..\09-Lib-CSNetFw\09-Lib-CSNetFw.csproj" />
+    <ProjectReference Include="..\09-Lib-CSWPF\09-Lib-CSWPF.csproj" />
+  </ItemGroup>
+
+</Project>
