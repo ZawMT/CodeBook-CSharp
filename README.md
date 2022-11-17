@@ -16,7 +16,7 @@ Important notes which should be noticed easily (rather than found out in the chr
 2022-11-04 1438: The name is changed to CodeBook-Cs - since the codes will not be only C# but other C as well (C++14, Standard C, etc.)
 
 ## Convention
-In a project, general informative comments will be added like CodeBookNote#Number. Therefore, to know about a project look for CodeBookNote#0 in the particular project. If a comment is written in a place which can be easily overlooked, this tag will be added to the comment so it will not be missed out CodeBookNote#. All the comments will be informative here in this CodeBook.
+In a project, general informative comments will be added like CodeBookNote#Number. Therefore, to know about a project look for CodeBookNote#0 in the particular project. If a comment is written in a place which can be easily overlooked, this tag will be added to the comment so it will not be missed out CodeBookNote#. All the comments will be informative here in this CodeBook. Further reading suggestions can be found in the comments as well.
 
 The projects can be tested by using Visual Studio 2019.
 
