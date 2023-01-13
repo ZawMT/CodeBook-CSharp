@@ -21,6 +21,8 @@ int main()
     // To test any snippet, copy and paste the calling function here
     // E.g. To try ByteArrToInt function:
     // Test_ByteArrToInt();
+
+    Snippets::clearVectorOfAMap();
 }
 
 void Test_ByteArrToInt()

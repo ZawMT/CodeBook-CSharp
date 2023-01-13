@@ -19,4 +19,6 @@ public:
 
 		return result;
 	}
+
+	static void clearVectorOfAMap();
 };
