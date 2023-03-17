@@ -1,6 +1,4 @@
-﻿using System.Configuration;
-
-using log4net;
+﻿using log4net;
 
 namespace _11_Log4Net
 {
@@ -22,8 +20,17 @@ namespace _11_Log4Net
      * Regarding writing to console, this is used in this example log4net.Appender.ManagedColoredConsoleAppender
      * So the colored text will be written to console.
      * Just for normal logging (black and white), the simpler log4net.Appender.ConsoleAppender can be used
+     
+     * Sometimes, there might be issues such as the log file is not generated, neither error is shown.
+     * In the logger IsDebugEnabled, etc. settings are all false though it seems that all the necessary configuration 
+     * is there and the files are in the correction location
+     * In that case, to make sure that the config file is loaded correctly, we can explicitly set up such as below:
+       FileInfo fiConfig = new FileInfo("test.log4net.config");
+       XmlConfigurator.Configure(fiConfig);
+       logger = LogManager.GetLogger("TEST");
+     * We can check fiConfig variable to see if the file is found properly or not, and also the settings.
      * */
-    class Program
+    class Program    
     {
         private static readonly ILog log = LogManager.GetLogger("Log4NetTestProgram");
         static void Main(string[] args)
