@@ -1,4 +1,6 @@
 .vs/
+/Debug/
+/packages/
 01-Thread-Basic/bin/
 01-Thread-Basic/obj/
 02-Task-Basic/bin/
@@ -51,5 +53,5 @@
 16-Cs-Config/obj/
 17-CS-Linq/bin/
 17-CS-Linq/obj/
-/Debug/
-/packages/
+18-CS-AwsPostgres/bin/
+18-CS-AwsPostgres/obj/

@@ -69,6 +69,10 @@ namespace _17_CS_Linq
             WriteInTrace("Print the list sorted by Name");
             lstP.Sort((x, y) => x.Name.CompareTo(y.Name));
             fnPrint(lstP);
+
+            WriteInTrace("Print the list sorted by Age/Days - Descending");
+            lstP.Sort((x, y) => y.AgeInDays.CompareTo(x.AgeInDays));
+            fnPrint(lstP);
         }
 
         private void fnPrint(List<Human> lst)
