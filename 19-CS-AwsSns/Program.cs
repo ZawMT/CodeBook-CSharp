@@ -14,8 +14,8 @@ class Program
         try
         {
             // Create an instance of AmazonSimpleNotificationServiceClient
-            string strAccessKey = "AKIAXO2TMBB7TDPPAH56";
-            string strSecretKey = "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";
+            string strAccessKey = "AccessKey";
+            string strSecretKey = "SecretKey";
             var snsClient = new AmazonSimpleNotificationServiceClient(strAccessKey, strSecretKey, Amazon.RegionEndpoint.APSoutheast1);
 
             // Create an instance of AmazonSQSClient

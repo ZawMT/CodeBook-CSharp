@@ -12,7 +12,7 @@ namespace _18_CS_AwsPostgres
             // string strPort = "5432"; // If port is 5432 (default port), then it is optional in the connection string
             string strDb = "database1";
             string strUser = "postgres";
-            string strPwd = "Post2022";
+            string strPwd = "Password";
 
             try
             {

@@ -10,8 +10,8 @@ namespace _20_CS_AwsSnsPublisher
     {
         static void Main(string[] args)
         {
-            string strAccessKey = "AKIAXO2TMBB7TDPPAH56";
-            string strSecretKey = "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";
+            string strAccessKey = "AccessKey";
+            string strSecretKey = "SecretKey";
 
             // Set up the AWS credentials and region
             var credentials = new Amazon.Runtime.BasicAWSCredentials(strAccessKey, strSecretKey);

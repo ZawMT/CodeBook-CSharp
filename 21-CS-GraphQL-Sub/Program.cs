@@ -12,7 +12,7 @@ class Program
      * Using https://cloud.hasura.io/ will be a fast approach
      */
 
-    public const string strSecretKey = "csgQjhJ0f5WBP0zFzjOKcyYU92MIVyx066c3PUarcIHUcE75k7bZTXY62oWftnbi";
+    public const string strSecretKey = "SecretKey";
     public const string strAddress = "gql-test.hasura.app/v1/graphql";
     static async Task Main(string[] args)
     {
