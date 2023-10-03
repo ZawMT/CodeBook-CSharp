@@ -12,8 +12,8 @@ class Program
      * Using https://cloud.hasura.io/ will be a fast approach
      */
 
-    public const string strSecretKey = "SecretKey";
-    public const string strAddress = "gql-test.hasura.app/v1/graphql";
+    public const string strSecretKey = "csgQjhJ0f5WBP0zFzjOKcyYU92MIVyx066c3PUarcIHUcE75k7bZTXY62oWftnbi"; // "cA388#jR7e2x"; // "csgQjhJ0f5WBP0zFzjOKcyYU92MIVyx066c3PUarcIHUcE75k7bZTXY62oWftnbi";
+    public const string strAddress = "gql-test.hasura.app/v1/graphql"; // "srs.merryapptest.com/admin/hasura/v1/graphql"; // "gql-test.hasura.app/v1/graphql";
     static async Task Main(string[] args)
     {
         try
@@ -44,7 +44,8 @@ class Program
                     type = "start",
                     payload = new
                     {
-                        query = @"subscription GetttTbLoginStreamingSubscription { tb_login { login_user login_time } }"
+                        query = @"subscription GetttTbLoginStreamingSubscription { tb_login (where: { login_user: { _eq: 1 } }) { login_user login_time } }"
+                        /* query = @"subscription MySubscription { srsadmin_tb_customer (where: { sqlno: { _eq: 4 } }) { sqlno created name }}" */
                     }
                 };
 
@@ -60,7 +61,7 @@ class Program
                     if (result.MessageType == WebSocketMessageType.Text)
                     {
                         string strRead = Encoding.UTF8.GetString(buffer.Array, 0, result.Count);
-                        Console.WriteLine("================================");
+                        Console.WriteLine(" ================================");
                         Console.WriteLine(strRead);
                         Console.WriteLine("================================");
                     }
